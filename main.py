@@ -13,5 +13,5 @@ input.on_button_pressed(Button.B, on_button_pressed_b)
 radio.set_group(33)
 
 def on_forever():
-    pass
+    basic.show_number(input.sound_level())
 basic.forever(on_forever)
